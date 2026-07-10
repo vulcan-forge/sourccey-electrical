@@ -1,0 +1,55 @@
+# KiCad local state and lock files
+*.kicad_prl
+*.kicad_pro-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_prl-bak
+*.lck
+~$*
+
+# Common editor and OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# Generated plot and manufacturing output.
+# Keep released manufacturing packages in fab/ or releases/ if they are
+# intentionally versioned; use `git add -f` when needed.
+gerbers/
+gerber/
+drill/
+plots/
+*.gbr
+*.drl
+*.xln
+*.pos
+fab/
+releases/
+!fab/
+!fab/**
+!releases/
+!releases/**
+!manufacturing/
+!manufacturing/**
+
+# KiCad caches (project libraries and library tables should be reviewed and
+# tracked when they are part of the design)
+fp-info-cache
+
+# Temporary exports and local automation output
+*.tmp
+*.bak
+*.log
+build/
+dist/
+out/
+tmp/
+
+# Python tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/

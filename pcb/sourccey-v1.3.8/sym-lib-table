@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "DRV8874PWPR")(type "KiCad")(uri "${KIPRJMOD}/symbols/DRV8874PWPR.kicad_sym")(options "")(descr "TI DRV8874 motor driver"))
+)
+

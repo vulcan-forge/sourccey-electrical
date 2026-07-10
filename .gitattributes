@@ -1,0 +1,47 @@
+# Repository text and line endings
+* text=auto
+*.md text eol=lf
+*.txt text eol=lf
+*.csv text eol=lf
+*.tsv text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+
+# KiCad project sources are text-based and should be diffable
+*.kicad_pro text eol=lf
+*.kicad_sch text eol=lf
+*.kicad_pcb text eol=lf
+*.kicad_sym text eol=lf
+*.kicad_wks text eol=lf
+*.kicad_mod text eol=lf
+*.kicad_dru text eol=lf
+
+# Treat binary assets and archives as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.7z binary
+*.step binary
+*.stp binary
+
+# Generated manufacturing files are not source code
+*.gbr linguist-generated
+*.gbrjob linguist-generated
+*.drl linguist-generated
+*.xln linguist-generated
+*.pos linguist-generated
+*.gtl linguist-generated
+*.gbl linguist-generated
+*.gts linguist-generated
+*.gbs linguist-generated
+*.gtp linguist-generated
+*.gbp linguist-generated
+*.gto linguist-generated
+*.gbo linguist-generated
+*.gm1 linguist-generated
+*.csv linguist-generated
